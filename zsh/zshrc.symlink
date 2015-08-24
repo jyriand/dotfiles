@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -39,3 +39,14 @@ do
 done
 
 unset config_files
+
+#Boot2Docker
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/jyri/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home"
+export NVM_DIR="/Users/jyri/.nvm"
+export ANDROID_HOME="/Users/jyri/devel/android-sdk-macosx"
+export PATH="/usr/local/mysql/bin:$ANDROID_HOME/tools:$PATH"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
