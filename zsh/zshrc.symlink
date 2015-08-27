@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -39,3 +39,12 @@ do
 done
 
 unset config_files
+
+export NVM_DIR="/Users/jyria/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export RACKET_HOME="/Applications/Racket v6.1.1"
+### Added by the Heroku Toolbelt
+export HEROKU_HOME="/usr/local/heroku"
+export PACKER_HOME="/Users/jyria/opt/packer_0.7.5_darwin_amd64"
+export ANDROID_HOME="/Users/jyria/opt/android-sdk-macosx/"
+export PATH="$HEROKU_HOME/bin:$RACKET_HOME/bin:$PACKER_HOME/bin:$ANDROID_HOME/tools:$PATH"

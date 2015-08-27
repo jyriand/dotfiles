@@ -1,1 +1,8 @@
 alias reload!='. ~/.zshrc'
+alias e='emacsclient -t'
+alias ec='emacsclient -c'
+alias vim='emacsclient -t'
+alias vi='emacsclient -t'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
