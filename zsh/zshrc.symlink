@@ -50,3 +50,5 @@ export NVM_DIR="/Users/jyri/.nvm"
 export ANDROID_HOME="/Users/jyri/devel/android-sdk-macosx"
 export PATH="/usr/local/mysql/bin:$ANDROID_HOME/tools:$PATH"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
